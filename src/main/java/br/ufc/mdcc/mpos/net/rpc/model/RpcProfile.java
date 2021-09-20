@@ -88,6 +88,6 @@ public final class RpcProfile {
 
 	@Override
 	public String toString() {
-		return "DebugRpc [id=" + id + ", executionCpuTime=" + executionCpuTime + ", uploadTime=" + uploadTime + ", donwloadTime=" + donwloadTime + ", uploadSize=" + uploadSize + ", downloadSize=" + downloadSize + "]";
+		return "DebugRpc [currentTimeMillis=" + System.currentTimeMillis() + " id=" + id + ", executionCpuTime=" + executionCpuTime + ", uploadTime=" + uploadTime + ", downloadTime=" + donwloadTime + ", uploadSize=" + uploadSize + ", downloadSize=" + downloadSize + "]";
 	}
 }
