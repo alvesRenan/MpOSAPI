@@ -1,0 +1,11 @@
+br.ufc.mdcc.mpos
+string app_name
+string create_table_netprofile
+string create_table_user
+string database_name
+string drop_table_netprofile
+string drop_table_user
+string name_table_netprofile
+string name_table_user
+style AppBaseTheme
+style AppTheme
